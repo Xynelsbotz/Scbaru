@@ -143,7 +143,7 @@ url: 'https://youtube.com/channel/UCsQHOaoM4b1ta7bZVLvc_Pg'
 {
 urlButton: {
 displayText: '☠️ＯＷＮＥＲ',
-url: 'https://wa.me/681319339702'
+url: 'https://wa.me/6281319339702'
 }
 },
 {
