@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/Chino-06-16" alt="Chino-Md" width="100"/>
+<img src="https://telegra.ph/Chino-06-16.jpg" alt="Chino-Md" width="100"/>
 
 
 </p>
