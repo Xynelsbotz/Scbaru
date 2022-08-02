@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.owner = ['6281319339702','6281319339702']
+global.owner = ['6281908052908','6281319339702']
 global.premium = ['6285712789786']
 global.packname = 'olvv'
 global.author = 'Wa :6281319339702'
