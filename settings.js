@@ -1,34 +1,34 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.owner = ['6281908052908','6282391562475']
-global.premium = ['6281908052908']
-global.packname = 'Xavior'
-global.author = 'Wa :6281319339702'
+global.owner = ['6285854337533','6285646458928']
+global.premium = ['6285854337533']
+global.packname = 'Sayu.Ogiwara'
+global.author = 'Wa :6285646458928'
 global.sessionName = 'session'
-global.namabotnya = '𝐗𝐚𝐯𝐢𝐨𝐫-𝐁𝐨𝐭-𝐅𝐫𝐞𝐞'
-global.namaownernya = '🅇🄰🅅🄸🄾🅁-🄾🄵🄲'
+global.namabotnya = 'sᴛʀᴇɴɢᴛʜ ʙᴏᴛ'
+global.namaownernya = '◈○∘◦χуиєℓѕ ∂єѕιgи◦∘○◈'
 global.dapkey = 'Kirbotz123'
 global.lolkey = 'Atakbotz'
 global.kirkey = 'ChinoBot'
-global.wame = 'https://wa.me/6281908052908'
-global.gckirbotz = 'https://chat.whatsapp.com/BkJLL980gF8BJHyXFPVVvI'
-global.ownerNumber = ["6281908052908@s.whatsapp.net"]
-global.email = 'XaviorOfc@gmail.com'
-global.yt = 'https://youtu.be/ZVZ9WWKwoyE'
-global.webkir = 'https://youtu.be/ZVZ9WWKwoyE'
-global.githubkir = 'https://github.com/Xavior88'
+global.wame = 'https://wa.me/6285854337533'
+global.gckirbotz = 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP'
+global.ownerNumber = ["6285854337533@s.whatsapp.net"]
+global.email = 'xyneldesign@gmail.com'
+global.yt = 'https://youtube.com/channel/UCHEHOIHj-7z9K3QTapYdNpg'
+global.webkir = 'https://xynelsdesign.carrd.co/'
+global.githubkir = 'https://github.com/Xynelsbotz'
 global.region = 'INDONESIA'
 global.prefa = ['','!','.','#','-','•']
 global.mess = {
-    success: '𝕊𝕦𝕓𝕤𝕔𝕣𝕚𝕓𝕖 𝕏𝕒𝕧𝕚𝕠𝕣𝕆𝕗𝕔~',
-    admin: '𝕂𝕙𝕦𝕤𝕦𝕤 𝔸𝕕𝕞𝕚𝕟 𝕊𝕒𝕪𝕒𝕟𝕘...',
-    botAdmin: '𝕊𝕒𝕪𝕒 𝕓𝕖𝕝𝕦𝕞 𝕁𝕒𝕕𝕚 𝔸𝕕𝕞𝕚𝕟...',
+    success: '𝙳𝚘𝚗𝚎 𝙺𝚊𝚔, 𝙹𝚊𝚗𝚐𝚊𝚗 𝙻𝚞𝚙𝚊 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎 *𝚇𝚈𝙽𝙴𝙻𝚂 𝙳𝙴𝚂𝙸𝙶𝙽* 𝙷𝚎𝚑𝚎',
+    admin: '𝙺𝚑𝚞𝚜𝚞𝚜 𝙰𝚍𝚖𝚒𝚗 𝚂𝚊𝚢𝚊𝚗𝚐',
+    botAdmin: ' *𝚂𝚊𝚢𝚊 𝙱𝚎𝚕𝚞𝚖 𝙹𝚊𝚍𝚒 𝙰𝚍𝚖𝚒𝚗 𝙺𝚊𝚔* ',
     owner: ' *𝙰𝚠𝚔𝚠𝚔𝚠𝚘𝚔 𝙻𝚞 𝙱𝚞𝚔𝚊𝚗 𝙾𝚠𝚗𝚎𝚛* ',
     group: ' *𝙺𝚑𝚞𝚜𝚞𝚜 𝙶𝚛𝚞𝚙 𝚂𝚊𝚢𝚊𝚗𝚐...* ',
     private: ' *𝙺𝚑𝚞𝚜𝚞𝚜 𝙿𝚛𝚒𝚟𝚊𝚝𝚎 𝚂𝚊𝚢𝚊𝚗𝚐...* ',
-    bot: '𝐋𝐮 𝐁𝐨𝐭...?',
-    error: '𝘽𝙤𝙩 𝙍𝙪𝙨𝙖𝙠!!!',
+    bot: '𝙻𝚞 𝙱𝚘𝚝...?',
+    error: '𝙱𝚘𝚝 𝙴𝚛𝚛𝚘𝚛',
     wait: '𝚂𝚊𝚋𝚊𝚛 𝚈𝚊𝚑 𝚂𝚊𝚢𝚊𝚗𝚐...',
     noPetualang: 'Itssss Kamu Belum Jadi Member Petualang, Silahkan Ketik .joinrpg <namamu>',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
