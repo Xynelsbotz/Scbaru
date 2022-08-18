@@ -1965,7 +1965,7 @@ let buttons = [
 ]
 let buttonMessage = {
 document: fs.readFileSync('./Image/memeknya.jpg'), 
-fileName: `Bot byXynels Design`, 
+fileName: `Bot by Xynels Design`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: thumb,
 caption: mbc,
