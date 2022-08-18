@@ -811,10 +811,10 @@ async function replyPremium(teks) {
                 
 async function sendBut5nya(teks) {
 var button = [
-{"urlButton": {"displayText": "MyOwner🔥","url": `https://wa.me/6281319339702`}},
-{"quickReplyButton": {"displayText": "Sewabot","id": 'sewabot'}},
-{"quickReplyButton": {"displayText": "Donasi","id": 'donasi'}},
-{"quickReplyButton": {"displayText": "Status Botz","id": 'ping'}}
+{"urlButton": {"displayText": "🎫MyOwner","url": `https://wa.me/6285854337533`}},
+{"quickReplyButton": {"displayText": "🎫Sewabot","id": 'sewabot'}},
+{"quickReplyButton": {"displayText": "🎫Donasi","id": 'donasi'}},
+{"quickReplyButton": {"displayText": "🎫Status Botz","id": 'ping'}}
 		]
 kirbotz.sendMessage(from, { caption: teks, location: { jpegThumbnail: thumb }, templateButtons: button, footer: `Owner Bot : ${owner.length}`, mentions: [sender] })
         .catch ((err) => reply(err))
@@ -1951,18 +1951,21 @@ case 'menu':
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 let timestamp = speed()
 let latensi = speed() - timestamp
-const botzkir = "6281319339702@s.whatsapp.net"
+const botzkir = "6285854337533@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya Chino-Md Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya Strength Bot Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.
+
+Follow IG : @xynels.design
+Author by Nelsen Chandra`
 let buttons = [
-{buttonId: `${prefix}rpgmenu`, buttonText: {displayText: 'Rpg Menu'}, type: 1},
-{buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
+{buttonId: `${prefix}rpgmenu`, buttonText: {displayText: '🎫Rpg Menu'}, type: 1},
+{buttonId: `${prefix}allmenu`, buttonText: {displayText: '🎫All Menu'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./Image/memeknya.jpg'), 
-fileName: `Bot by olvv`, 
+fileName: `Bot byXynels Design`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: thumb,
 caption: mbc,
@@ -2009,9 +2012,14 @@ var ya = '```'
 await sendBut5nya(`──────〇『 ${ya}Info User${ya} 』
 ➥ ${ya}Nama User${ya} : ${pushname}
 ➥ ${ya}Nomor User${ya} : ${sender.split("@")[0]}
-➥ ${ya}User Premium${ya} : ${isPrem ? 'I͎y͎a͎' : 'T͎i͎d͎a͎k͎'}
+➥ ${ya}User Premium${ya} : ${isPrem ? 'iya' : 'Tidak'}
 ➥ ${ya}Rank${ya} : ${role}
 ➥ ${ya}Status${ya} : ${elit}
+─〇
+
+──────〇『 ${ya}Follow Us${ya} 』
+➥ Instagram : instagram.com/xynels.design
+➥ Github : github.com/Xynelsbotz
 ─〇
 
 ──────〇『 ${ya}INFO CORONA${ya} 』
@@ -4772,8 +4780,8 @@ Note : *Keuntungan Sewabot & Premium?*
 Bisa Masukin Bot Ke Group & Bisa Gunain Fitur Premium Tanpa Batas
 
 List Payment
-GOPAY : Scan Qr Di Atas
-OVO : 081938835391
+GOPAY : Chat Owner Aja Kak 
+OVO : Chat Owner Aja Kak 
 
 Note : MAU SEWA & PREM APA MAU LIAT DOANG ANJING
 ${ya}Jika Sudah Membayar Silahkan Kirim Bukti Screenshot Ke Button Url Di Bawah${ya}`
@@ -4787,8 +4795,8 @@ hydratedFooterText: 'Created By olvv',
 hydratedButtons: [
 {
 urlButton: {
-displayText: 'Owner Nabb Botz',
-url: 'https://wa.me/6281319339702'
+displayText: '🎫Owner Strength Bot',
+url: 'https://wa.me/6285854337533'
 }
 }]
 }
@@ -4800,13 +4808,16 @@ break
 case 'payment': case 'donasi': {
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 donte = `_MAU BAYAR YA KAK_
-GOPAY : Scan Qr Di Atas
+GOPAY : Chat Owner Aja Kak
 
 
 *NOTE :*
 MAU BAYAR APA LIAT DOANG ANJING
 JIKA SUDAH BAYAR KIRIM BUKTI 
-SCREENSHOT KE NOMOR OWNER`
+SCREENSHOT KE NOMOR OWNER
+
+JIKA MAU DONASI FOLLOW IG JUGA BOLEH
+https://instagram.com/xynels.design`
 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./Image/gopaykir.jpg') }, { upload: kirbotz.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
