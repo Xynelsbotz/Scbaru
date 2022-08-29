@@ -156,7 +156,7 @@ try {
         },
         message: {
         locationMessage: {
-        name: `I’m From Indonesia 🇮🇩`,
+        name: `Xyenc Bot-MD🧑‍💻`,
         jpegThumbnail: thumb
         }
         }
@@ -169,7 +169,7 @@ try {
         ...({ remoteJid: "" }),
         message: {
         locationMessage: {
-        name: `I’m From Indonesia 🇮🇩`,
+        name: `Xyenc Bot-MD🧑‍💻`,
         jpegThumbnail: thumb
         }
         }
@@ -377,7 +377,7 @@ message: {
             isForwarded:true, 
             mentionedJid: [m.sender],
 			externalAdReply: { 
-			title: "I'm From Indonesia 🇲🇨", 
+			title: "Xyenc Bot MD🧑‍💻", 
 			mediaType: 1, 
 			body: "Website Owner", 
 			thumbnail: ppnyauser, 
@@ -484,7 +484,7 @@ const fakekirbotz = {
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: 'Created By olvv',
+      caption: 'Created By Xynels',
       jpegThumbnail: ppnyauser,
       viewOnce: true
     }
@@ -860,7 +860,7 @@ if (!isCreator) return reply(mess.owner)
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// Created By olvv\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// Created By Xynels\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./kirbotz.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1559,7 +1559,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1594,7 +1594,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1629,7 +1629,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1664,7 +1664,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1699,7 +1699,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Gelap Bos:v`,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -1958,7 +1958,16 @@ mbc = `Hai Kak @${sender.split("@")[0]}
 Saya Strength Bot Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.
 
 Follow IG : @xynels.design
-Author by Nelsen Chandra`
+Author by Nelsen Chandra
+
+Jasa spam virtex :
+wa.me/+6285854337533
+🎫Ganas
+🎫Bug GC
+🎫Auto Close
+🎫No Counter
+*Harga? Tawar sendiri.*
+Be Smart Buyer`
 let buttons = [
 {buttonId: `${prefix}rpgmenu`, buttonText: {displayText: '🎫Rpg Menu'}, type: 1},
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: '🎫All Menu'}, type: 1}
@@ -1997,7 +2006,7 @@ kirbotz.sendMessage(m.chat, buttonMessage, { quoted: {
 				    itemCount: 99999999,
 				    status: 1,
 				    surface: 1,
-				    message: 'Created By olvv',
+				    message: 'Created By Xynels',
 				    orderTitle: '999999999', 
 				    sellerJid: `0@s.whatsapp.net` 
 				   }
@@ -2588,7 +2597,7 @@ displayText: 'M E N U',
 id: `${prefix}menu`
 }
 }]
-kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By olvv`, global.thumb, btn)
+kirbotz.send5Loc(m.chat, `On Kak Silahkan Pencet Button Di Bawah\nJika Button Tidak Kelihatan Ketik ${prefix}menu`, `Created By Xynels`, global.thumb, btn)
 }
 break
 case 'Assalamualaikum': case 'assalamualaikum':{
@@ -2628,7 +2637,7 @@ url: `${wame}`
 {
 urlButton: {
 displayText: 'Script Bot',
-url: `https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`
+url: `wa.me/+6285854337533`
 }
 }]
 }
@@ -2687,10 +2696,10 @@ if (/webp/.test(mime)) {
 kirbotz.sendMessage(i, { sticker: { url: media } }, { quoted: m })
 } else if (/image/.test(mime)) {
 let junn = `*_BROADCAST IMAGE_*${text ? '\n\n' + text : ''}`
-kirbotz.send5ButImg(i, junn, `Created By olvv`, buffer, butoon)
+kirbotz.send5ButImg(i, junn, `Created By Xynels`, buffer, butoon)
 } else if (/video/.test(mime)) {
 let junn = `*_BROADCAST VIDIO_*${text ? '\n\n' + text : ''}`
-kirbotz.send5Vid(i, junn, `Created By olvv`, buffer, butoon)
+kirbotz.send5Vid(i, junn, `Created By Xynels`, buffer, butoon)
 } else if (/audio/.test(mime)) {
 kirbotz.sendMessage(i, {audio: buffer, mimetype: 'audio/mpeg'}, { quoted : m })
 } else {
@@ -2770,7 +2779,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynel',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3671,7 +3680,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3826,7 +3835,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3884,7 +3893,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3920,7 +3929,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: ini_txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -3982,7 +3991,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4041,7 +4050,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4074,7 +4083,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4182,7 +4191,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4237,7 +4246,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4269,7 +4278,7 @@ case 'wallgravity':
 case 'coolgravity':{
 if (isBan) return replyBan('Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya')
 
-if (args.length == 0) return replyNya(`Example: ${prefix + command} olvv Botz`)
+if (args.length == 0) return replyNya(`Example: ${prefix + command} Xynels Botz`)
 sticWait(from)
 txt1 = args[0]
 txt2 = args[1]
@@ -4281,7 +4290,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4341,7 +4350,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4378,7 +4387,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4420,7 +4429,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4668,7 +4677,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4700,7 +4709,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4733,7 +4742,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: pll,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -4791,7 +4800,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: sewbot,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [
 {
 urlButton: {
@@ -4824,7 +4833,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: donte,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5589,7 +5598,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5633,7 +5642,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5673,7 +5682,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: txt,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
@@ -5735,7 +5744,7 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: `Nih Kak`,
-hydratedFooterText: 'Created By olvv',
+hydratedFooterText: 'Created By Xynels',
 hydratedButtons: [{
 urlButton: {
 displayText: 'MyGithub',
